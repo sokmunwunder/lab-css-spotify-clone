@@ -179,20 +179,51 @@ hr{
 }
 
 .white-logo{
-    display: flex 
-    flex-direction: row; 
-    justify-content: center; 
-    width: 250px;  
+    width: 100px;  
 }
 
+.white-headline {
+  color: white;
+  margin-left: 30px;   
+}
+
+.white-para{
+    color: white; 
+    margin-left: 30px; 
+}
+
+.west-image{
+    width: 300px; 
+    height: 500px; 
+}
 .app-page{
     background-color: #00B172;
-   
     background-size: cover; 
     background-repeat: no-repeat; 
     margin-left: 30px; 
     margin-right: 30px; 
+    margin-bottom: 100px; 
+}
 
+.app-columns{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.app-column-one{
+    flex-basis: 25%;
+    flex-shrink: 1;
+}
+
+.app-column-two{
+    flex-basis: 30%;
+    flex-shrink: 1;
+
+}
+
+.app-column-three{
+    flex-basis: 45%;
+    flex-shrink: 1;
 }
 
 
