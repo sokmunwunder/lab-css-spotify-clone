@@ -30,21 +30,25 @@ ul li a {
 }
 
 .nav-bar > div {
-    width: 1200px;
+    width: 1500px;
     position: fixed; 
-   
+    padding-top: 10px; 
+    padding-bottom: 10px;
     display: flex; 
     flex-direction: row; 
     justify-content: flex-start; 
+    background-color: white; 
+  
 }
 
 .list {
-    width: 1200px; 
+    width: 1300px; 
     position: fixed;
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
-    font-size: 1.5rem;   
+    font-size: 1.5rem; 
+  
 }
 
 .flex-item-one {
@@ -76,5 +80,12 @@ ul li a {
     position: relative; 
 }
 
-
+.background-image{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 400px; 
+    padding-bottom: 400px;
+    
+}
 
