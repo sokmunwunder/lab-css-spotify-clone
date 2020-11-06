@@ -56,8 +56,6 @@ ul li a {
     flex-shrink: 1;
     margin-right: 30px; 
     position: relative;
-    
-  
 }
 
 .flex-item-two {
@@ -86,6 +84,19 @@ ul li a {
     background-repeat: no-repeat;
     padding-top: 400px; 
     padding-bottom: 400px;
-    
+}
+
+h1{
+    font-size: 4em; 
+    color: white;
+    display: block; 
+    text-align: center; 
+}
+
+.centralised-text {
+    font-size: 1.1rem; 
+    color: white;
+    display: block;
+    text-align: center; 
 }
 
